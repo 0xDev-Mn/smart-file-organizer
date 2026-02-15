@@ -1,7 +1,7 @@
 from pathlib import Path
 import shutil
 
-BASE_DIR = "/home/bat-man/Downloads"
+BASE_DIR = "<PATH-TO-FOLDER>"
 
 CATEGORIES = {
     "Documents": [".pdf", ".txt", ".docx"],
