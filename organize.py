@@ -1,13 +1,15 @@
 from pathlib import Path
 import shutil
 
-BASE_DIR = "<PATH-TO-FOLDER>"
+BASE_DIR = Path("<PATH-TO-FOLDER>")
 
 CATEGORIES = {
     "Documents": [".pdf", ".txt", ".docx"],
     "Images": [".jpg", ".png", ".jpeg"],
     "Videos": [".mp4", ".mkv"],
     "Archives": [".zip", ".tar", ".gz"],
+    "Audio" : [".mp3"],
+    "Presentations" : [".ppt", ".pptx"],
 }
 
 def organize():
